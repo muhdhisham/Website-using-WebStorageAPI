@@ -1,0 +1,53 @@
+body, input {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+section {
+    padding-bottom: 16vh;
+    flex-grow: 1;
+    width: 100%;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    margin: 32px 0 6px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="url"] {
+    color: inherit;
+    font-size: 18px;
+    width: 400px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+::placeholder {
+    color: inherit;
+}

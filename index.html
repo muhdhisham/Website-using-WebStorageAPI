@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500,800&display=swap" rel="stylesheet">
+        <title>HTML5</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body class="flex" onload="onLoad();">
+        
+        <section id="section" class="flex">
+            <h1>Web Storage API Challenge</h1>
+            
+            <h2>Choose Background Image</h2>
+            <input id="url" type="url" name="image" placeholder="URL" oninput="setBackground();">
+            
+            <h2>Set Overlay Color</h2>
+            <input id="bg-color" type="color" name="bg-color" value="#ffffff" oninput="setOverlayColor();">
+            
+            <h2>Set Overlay Transparency</h2>
+            <input id="opacity" type="range" step=".01" min="0" max="1" oninput="setOverlayColor();">
+            
+            <h2>Set Text Color</h2>
+            <input id="text-color" type="color" name="text-color" oninput="setTextColor();">
+        </section>
+        
+    </body>
+</html>
